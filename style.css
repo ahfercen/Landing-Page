@@ -129,18 +129,21 @@ body{
 /* Call to action Styling */
 .Call{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .Call .container{
+    flex: 1;
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
     background-color: #3882F6;
     display: flex;
+    justify-content: space-between;
 }
 .Call .container .text{
-    display: flex;
-    flex-direction: column;
     color: white;
-    
+}
+.Call .container .button{
+    display: flex;
+    align-items: flex-end;
 }
 #CallButton{
     background-color: #3882F6;
@@ -149,4 +152,5 @@ body{
     color: white;
     font-weight: 500;
     font-size: 20px;
+    padding: 5px 15px 5px 15px;
 }
