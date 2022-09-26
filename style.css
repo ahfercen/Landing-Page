@@ -129,5 +129,17 @@ body{
 /* Call to action Styling */
 .Call{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Call .container{
     background-color: #3882F6;
+    display: flex;
+}
+.Call .container .text{
+    display: flex;
+    flex-direction: column;
+}
+.Call .container .button{
+
 }
