@@ -106,3 +106,9 @@ body{
     font-weight: bolder;
     color: #1f2937;
 }
+
+/* Quote Styling */
+.Quote{
+    display: flex;
+    flex-direction: column;
+}
