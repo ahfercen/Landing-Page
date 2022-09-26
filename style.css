@@ -139,7 +139,14 @@ body{
 .Call .container .text{
     display: flex;
     flex-direction: column;
+    color: white;
+    
 }
-.Call .container .button{
-
+#CallButton{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
