@@ -1,5 +1,5 @@
 /* Multi section styling */
-.header,.hero{
+.header,.hero,.Quote{
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -112,6 +112,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #quote-text{
     font-size: 36px;
