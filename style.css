@@ -1,5 +1,5 @@
 /* Multi section styling */
-.header,.hero,.Quote{
+.header,.hero,.Quote,.Call{
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -124,4 +124,10 @@ body{
     text-align: right;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* Call to action Styling */
+.Call{
+    display: flex;
+    background-color: #3882F6;
 }
