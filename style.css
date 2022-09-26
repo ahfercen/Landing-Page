@@ -120,3 +120,8 @@ body{
     font-style:italic;
     color: #1f2937;
 }
+#quote-person{
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+}
