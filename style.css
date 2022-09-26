@@ -111,4 +111,10 @@ body{
 .Quote{
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+}
+#quote-text{
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
 }
